@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-eqiv="X-UA-Compatible" contents="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FaceBook</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c757500192.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+ 
+  <body style="background: #efefef">
+    <nav>
+      <div class="nav-left">
+        <!-- <img src="logo.png" class="logo">  -->
+        <i class="bi bi-facebook logo"></i>
+        <ul>
+          <li><i class="bi bi-house"></i></li>
+          <li><i class="bi bi-people"></i></li>
+          <li><i class="fa-solid fa-people-line"></i></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search" />
+          <div class="nav-user-icon online">
+            <img src="nikola.jpg" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- left side  -->
+
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href=""><i class="fa-solid fa-user-group"></i> Find friends</a>
+          <a href=""><i class="fa-solid fa-bookmark"></i> Save</a>
+          <a href=""><i class="fa-solid fa-clock-rotate-left"></i> Memories</a>
+          <a href=""><i class="fa-solid fa-users-line"></i> Groups</a>
+        </div>
+      </div>
+
+      <!-- post -->
+
+      <div class="main-content">
+        <!-- Create New Post  -->
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="nikola.jpg" />
+            <div>
+              <p>Nikola Tesla</p>
+              <small>Public <i class="fa-solid fa-caret-down"></i> </small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea id="userInput" rows="3" placeholder="What's on your mind, Nikola" required></textarea>
+            <button id="save"><i class="fa-solid fa-check"> Post</i></button>
+
+
+            <div class="add-post-links">
+              <a href="#"> 
+                <i class="fa-solid fa-video video"></i> Live Video
+              </a>
+              <a href="#">
+                <i class="fa-regular fa-image photo"></i> Photo/Video
+              </a>
+              <a href="#">
+                <i class="bi bi-emoji-laughing feeling"></i> Feeling/Activity
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Public Posts -->
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="salman.jpg">
+                    <div>
+                        <p>Salman Khan</p>
+                        <p>Nov 04 2023, 15:42 pm</p>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            </div>
+        
+            <p class="post-text">
+                <span>Tiger 3 is an upcoming Indian Hindi-language action thriller film directed by Maneesh Sharma and produced by Aditya Chopra under Yash Raj Films</span>. The film stars Salman Khan, Katrina Kaif, and Emraan Hashmi. It is a sequel to Tiger Zinda Hai (2017) and is the fifth installment in the YRF Spy Universe.
+            </p>
+            <img src="tiger3.jpg" class="post-img">
+        
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up"></i> 123
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-comment fa-flip-horizontal"></i> 42
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-share"></i> 17
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="bt.png">
+                    <div>
+                        <p>BussinessToday</p>
+                        <p>Nov 04 2023, 15:42 pm</p>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            </div>
+        
+            <p class="post-text">
+                <span>Breaking News: India's GDP soars to $3.75 trillion in 2023, marking remarkable growth from $2 trillion in 2014.</span><br>The Finance Ministry confirms India's position as the world's fifth-largest economy, surpassing the UK, France, and others. A significant achievement, signifying India's role as a global economic 'Bright Spot'.<br><br>However, Moody's predicts a modest growth of 6-6.3% for the upcoming quarter, in contrast to the Reserve Bank of India's 8% forecast. Stay tuned for further economic developments.<a href=#>#IndianEconomy</a> <a href=#>#GDPGrowth</a> <a href=#>#EconomicUpdate</a>
+            </p>
+            <img src="bt1.jpg" class="post-img">
+        
+            <div class "post-row">
+                <div class="activity-icons">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up"></i> 123
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-comment fa-flip-horizontal"></i> 42
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-share"></i> 17
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="indiatoday.png">
+                    <div>
+                        <p>India Today</p>
+                        <p></p>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            </div>
+        
+            <p class="post-text">
+                <span>Exciting News for India 🇮🇳! Mumbai will host the 2023 International Olympic Committee Session</span>, a significant milestone for our country's Olympic journey. India last hosted it in 1983. Let's celebrate our progress in the world of sports. 🥇🏆
+                <a href=#>#Olympics2023</a> <a href=#>#Mumbai2023</a> <a href=#>#IndianSports</a>
+            </p>
+            <img src="olympics1.jpg" class="post-img">
+        
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up"></i> 123
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-comment fa-flip-horizontal"></i> 42
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-share"></i> 17
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="mailonline.jpg">
+                    <div>
+                        <p>mail Online</p>
+                        <p>Nov 08 2023, 19:16 pm</p>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            </div>
+        
+            <p class="post-text">
+                Heartfelt condolences to Neymar as he mourns the loss of his dear friend, Luana Andrade. Our thoughts and prayers go out to her family during this difficult time. 🙏❤️ <a href=#>#RIP</a> <a href=#>#LuanaAndrade</a> <a href=#>#Condolences</a>
+            </p>
+            <img src="LuanaAndrade.jpg" class="post-img">
+        
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up"></i> 123
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-comment fa-flip-horizontal"></i> 42
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-share"></i> 17
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="indianexpress.jpg">
+                    <div>
+                        <p>Indian Express</p>
+                        <p>Nov 08 2023, 22:42</p>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            </div>
+        
+            <p class="post-text">
+                <span>8 states, 55 raids, 44 arrests: NIA cracks down on human trafficking.</span><br> Assam Special DGP Harmeet Singh said the wheels of this operation were set in motion when police in Assam’s Karimganj district identified a group of people from the Rohingya community travelling in a train coming from Tripura.
+            </p>
+            <img src="nia1.jpg" class="post-img">
+        
+            <div class "post-row">
+                <div class="activity-icons">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up"></i> 123
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-comment fa-flip-horizontal"></i> 42
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-share"></i> 17
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="indianexpress.jpg">
+                    <div>
+                        <p></p>
+                        <p>Nov 8, 2023 04:59</p>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            </div>
+        
+            <p class="post-text">
+                <span>Order on firecrackers applies to all states, not only NCR: Supreme Court.</span><br> The court also made it “clear that there is no total ban on use of firecrackers” and that “only those firecrackers are banned, as directed... which are found to be injurious to health."
+            </p>
+            <img src="crackers.jpg" class="post-img">
+        
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div>
+                        <i class="fa-regular fa-thumbs-up"></i> 123
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-comment fa-flip-horizontal"></i> 42
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-share"></i> 17
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="x.jpg">
+                    <div>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            </div>
+        
+            <p class="post-text">
+                <span>Announcing Grok!</span><br><br>Grok is an AI modeled after the Hitchhiker’s Guide to the Galaxy, so intended to answer almost anything and, far harder, even suggest what questions to ask!<br><br>Grok is designed to answer questions with a bit of wit and has a rebellious streak, so please don’t use it if you hate humor!<br><br>A unique and fundamental advantage of Grok is that it has real-time knowledge of the world via the 𝕏 platform. It will also answer spicy questions that are rejected by most other AI systems.<br><br>Grok is still a very early beta product – the best we could do with 2 months of training – so expect it to improve rapidly with each passing week with your help.<br><br>Thank you, the xAI Team<br><br> <a href="https://x.ai"> https://x.ai </a> <br>
+            </p>
+        </div>
+        
+
+
+        <button onclick="loadPosts()" type="button" class="load-more-btn"> Load More </button>
+
+        <!-- post ended -->
+      </div>
+
+      <!-- right -->
+
+      <div class="right-sidebar">
+        <div class="group-con">
+          <p>Group Conversation</p>
+          <span><i class="fa-solid fa-circle-plus"></i> Create New Group</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright 2023 - facebook</p>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
